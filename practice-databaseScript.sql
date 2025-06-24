@@ -41,7 +41,7 @@ INSERT INTO customers (first_name, last_name, toothpaste_id, toothbrush_id) VALU
     ('Steve', 'Jobs', 4, 1),
     ('Steve', 'Wozniak', 2, 3),
     ('Jeff', 'Bezos', 3, 4),
-    ('Elon', 'Musk', 2);
+    ('Elon', 'Musk', 2, null);
 
 -- ROLLBACK
 COMMIT;
